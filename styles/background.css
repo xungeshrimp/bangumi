@@ -1,0 +1,48 @@
+body{
+  background:url(../images/background.jpg) no-repeat center center/cover fixed;
+}
+.main{
+  display:grid;
+  grid-template-rows:5fr 1fr;
+  grid-template-columns:1fr;
+  grid-gap:none;
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding:0;
+}
+#bgmlist{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  grid-template-rows:repeat(auto-fill,minmax(250px,1fr));
+  grid-gap:30px 20px;
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding:0;
+  grid-rows:1/span1;
+  grid-columns:1/span1;
+}
+#plist{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(256px,1fr));
+  grid-template-rows:repeat(auto-fill,minmax(144px,1fr));
+  grid-gap:25px 20px;
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding:0;
+  grid-rows:1/span1;
+  grid-columns:1/span1;
+  background-color:rgba(255,255,255,0.4);
+}
+#maintitle{
+  font:bold 40px 方正姚体;
+  text-align:center;
+  color:pink;
+}
+#conserhino{
+  font-family:French Script MT;
+  font-size:50px;
+  color:hotpink;
+}

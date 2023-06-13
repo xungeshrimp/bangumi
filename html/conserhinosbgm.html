@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conserhino的番剧播放</title>
+    <script src="../js/bgm.js"></script>
+    <style>
+    #BungoStrayDogs4{
+      grid-columns:1/span1;
+      gird-rows:1/span1;
+    }  
+    </style>
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/maincontain.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="contain">
+        <h1 id="maintitle"><span id="conserhino">Conserhino</span>の番剧播放</h1>
+      </div> 
+    </div>
+    <div class="main">
+      <div id="bgmlist">
+        <div id="BungoStrayDogs4" class="bgm" onclick="bgm(this.id)">
+          <img src="../images/BungoStrayDogs4.jpg">
+          <p>文豪野犬第四季</p>
+        </div>
+      </div>
+      <script type="text/javascript">
+        function bgm(clickid){
+          switch (clickid){
+            case "BungoStrayDogs4":
+              url="../html/bgmdogs4.html"
+          }
+          window.location.href=url
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.bgm>*{
+  margin:0 auto;
+  padding:0;
+  float:left;
+}
+.bgm img{
+  height:100%;
+  width:100%;
+  object-fit:fill;
+  filter:brightness(1);
+  transition:filter 0.8s ease-in-out;
+}
+.bgm p{
+  display:grid;
+  text-align:center;
+  font:bold 20px 微软雅黑;
+  color:rgb(0,0,0);
+  width:100%;
+  transition:background-color 0.8s,color 0.8s ease-in-out;
+}
+.bgm video{
+  width:100%;
+  height:100%;
+  filter:brightness(1);
+  object-fit:fill;
+  transition:filter 0.8s ease-in-out;
+}
+.bgm:hover img{
+  filter:brightness(0.5);
+  transition:filter 0.8s ease-in-out;
+}
+.bgm:hover p{
+  transition:background-color 0.8s,color 0.8s ease-in-out;
+  background-color:rgba(0,0,0,0.6);
+  color:rgb(255,255,255);
+}
+.bgm:hover video{
+  filter:brightness(0.5);
+  transition:filter 0.8s ease-in-out;
+}

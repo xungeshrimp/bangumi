@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conserhino的番剧播放</title>
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/maincontain.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="contain">
+        <h1 id="maintitle"><span id="conserhino">Conserhino</span>の番剧播放</h1>
+      </div>
+    </div>
+    <div class="main">
+      <div id="plist">
+		<div class="bgm" onclick="p(this.id)" id="p1">	
+		  <video preload="metadata">
+		    <source src="../videos/BungoStrayDogs4/1.webm#t=360" type="video/webm">
+		  </video>
+		  <p>第一话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p2">
+		  <video preload="metadata">
+		    <source src="../videos/BungoStrayDogs4/2.webm#t=360" type="video/webm">
+		  </video>
+		  <p>第二话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p3">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/3.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第三话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p4">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/4.mp4#t=360" type="video/mp4">       
+		  </video>
+		  <p>第四话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p5">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/5.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第五话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p6">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/6.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第六话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p7">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/7.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第七话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p8">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/8.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第八话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p9">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/9.mp4#t=360" type="video/webm">
+		  </video>
+		  <p>第九话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p10">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/10.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第十话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p11">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/11.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第十一话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p12">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/12.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第十二话</p>
+		</div>
+		<div class="bgm" onclick="p(this.id)" id="p13">
+		  <video preload="metadata" src="../videos/BungoStrayDogs4/13.mp4#t=360" type="video/mp4">
+		  </video>
+		  <p>第十三话</p>
+		</div>
+	  </div>
+	  <script type="text/javascript">
+	    var url;
+	    function p(x){
+          switch(x){
+            case "p1":
+              url="../videos/BungoStrayDogs4/1.webm";
+              break;
+            case "p2":
+              url="../videos/BungoStrayDogs4/2.webm";
+              break;
+            case "p3":
+              url="../videos/BungoStrayDogs4/3.mp4";
+              break;
+            case "p4":
+              url="../videos/BungoStrayDogs4/4.mp4";
+              break;
+            case "p5":
+              url="../videos/BungoStrayDogs4/5.mp4";
+            case "p6":
+              url="../videos/BungoStrayDogs4/6.mp4";
+              break;
+            case "p7":
+              url="../videos/BungoStrayDogs4/7.mp4";
+              break;
+            case "p8":
+              url="../videos/BungoStrayDogs4/8.mp4";
+              break;
+            case "p9":
+              url="../videos/BungoStrayDogs4/9.mp4";
+              break;
+            case "p10":
+              url="../videos/BungoStrayDogs4/10.mp4";
+              break;
+            case "p11":
+              url="../videos/BungoStrayDogs4/11.mp4";
+              break;
+            case "p12":
+              url="../videos/BungoStrayDogs4/12.mp4";
+              break;
+            case "p13":
+              url="../videos/BungoStrayDogs4/13.mp4";
+              break;
+          }
+          window.location.href=url;
+        }
+	  </script>
+	</div>  
+  </body>
+</html>
